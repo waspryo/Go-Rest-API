@@ -87,7 +87,7 @@ func deleteBook(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(books)
 }
 
-// Main function
+// Main Function
 func main() {
 	// Init router
 	r := mux.NewRouter()
